@@ -1,0 +1,3 @@
+$subscriberid = 'test@email.com OR 1+5555555555'
+$base64AuthInfo = [convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes(("${subscriberid}")))
+$base64AuthInfo
